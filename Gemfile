@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'execjs'
-gem 'therubyracer'
+gem 'mini_racer'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -35,6 +35,9 @@ gem 'therubyracer'
 # gem 'capistrano-rails', group: :development
 gem 'friendly_id', '~> 5.2.4'
 gem 'devise', '~> 4.2'
+
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'jquery-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
