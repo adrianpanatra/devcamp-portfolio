@@ -67,3 +67,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'view_tool_browin', git: 'https://github.com/adrianpanatra/view_tool_browin'
+
+gem 'petergate', '~> 2.0', '>= 2.0.1'
