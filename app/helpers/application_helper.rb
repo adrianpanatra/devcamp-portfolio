@@ -22,6 +22,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    ViewToolBrowin::Renderer.copyright 'Adrian Julianto', 'All rights reserved'
+    #ViewToolBrowin::Renderer.copyright 'Adrian Julianto', 'All rights reserved'
   end
 end
