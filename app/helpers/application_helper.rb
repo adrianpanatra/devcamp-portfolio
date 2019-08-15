@@ -23,6 +23,7 @@ module ApplicationHelper
 
   def copyright_generator
     #ViewToolBrowin::Renderer.copyright 'Adrian Julianto', 'All rights reserved'
+    "&copy Adrian Julianto, All rights reserved".html_safe
   end
 
   def nav_items
