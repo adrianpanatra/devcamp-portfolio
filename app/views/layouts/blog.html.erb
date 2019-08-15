@@ -16,10 +16,8 @@
   <body>
 
     <%= render 'shared/blog_nav' %>
-
-    <!-- Start of blog header -->
     <%= render 'shared/blog_masthead' %>
-    <!-- End -->
+
     <div class="container">
       <div class="row">
         <div class="col-sm-8 blog-main">
@@ -30,6 +28,7 @@
         </div>
 
         <%= render 'shared/blog_footer' %>
+        <%= alerts %>
         <%= source_helper("blog") %>
 
       </div>
