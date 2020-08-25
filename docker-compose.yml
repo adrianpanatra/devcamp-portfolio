@@ -1,0 +1,25 @@
+versions: "2"
+
+volumes:
+  db-data:
+    external: false
+
+  services:
+    cache:
+      image: 
+
+    db:
+      environment:
+        POSTGRES_USER:
+        POSTGRES_PASSWORD:
+      image:
+      volumes:
+        -
+
+    jobs:
+      env_file:
+      build:
+      volumes:
+      command:
+      depends_on:
+        
